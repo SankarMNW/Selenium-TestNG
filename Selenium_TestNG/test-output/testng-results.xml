@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T05:28:57Z" name="Suite" finished-at="2023-02-24T05:30:21Z" duration-ms="83466">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T05:28:57Z" name="Test" finished-at="2023-02-24T05:30:21Z" duration-ms="83466">
+      <class name="TestNG.ExcelToDataProvider">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:TestNG.ExcelToDataProvider@124c278f]" started-at="2023-02-24T05:28:58Z" name="login" data-provider="login" finished-at="2023-02-24T05:29:40Z" duration-ms="42257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4596f8f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:TestNG.ExcelToDataProvider@124c278f]" started-at="2023-02-24T05:29:40Z" name="login" data-provider="login" finished-at="2023-02-24T05:30:21Z" duration-ms="40464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@ccf91df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestNG.ExcelToDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- if you have multiple <test> tags passing the parametes inside the <test> tag -->
+		<!-- But we have one <test> tag so pass the parametes inside the <suite> tag.. -->
+			
+	<parameter name="emailId" value="koushik350@gmail.com"></parameter> 
+	<parameter name="password" value="Pass123$"></parameter>
+		
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.LearnParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
